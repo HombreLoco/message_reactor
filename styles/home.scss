@@ -1,3 +1,48 @@
-h1 {
-  color: tomato;
+html {
+  box-sizing: border-box; 
 }
+
+*, *:before, *:after {
+  box-sizing: inherit; 
+}
+
+p {
+  color: #fff;
+}
+
+.chatContainer {
+  position: relative;
+  background-color: #009688;
+  width: 30%;
+  min-width: 300px;
+  height: 300px;
+  padding: 1em;
+}
+
+.chatWindow {
+  width: 100%;
+  height: 80%;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px #005950;
+  background-color: #b7fff8;
+  overflow: scroll;
+}
+
+.chatWindowFadeTop {
+  position: absolute;
+  height: 10px;
+  background-color: #000;
+}
+
+.chatLeftUsername {
+  margin-right: .5em;
+  text-decoration: underline;
+}
+
+.chatMessage {
+  color: #009688;
+}
+
+
+
