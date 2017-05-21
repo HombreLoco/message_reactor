@@ -4,6 +4,7 @@ import Message from './Message.jsx';
 class MessageList extends Component {
 
   render() {
+
     var outputMessages;
     if (this.props.messages.length != 0) {
       this.props.messages.forEach(function(item) {

@@ -5,71 +5,8 @@ class Message extends Component {
   render() {
     return(
       <div className="chatMessage">
-        <span className="chatLeftUsername">User Name:</span>
-        <span>{this.props.content}</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
-        <br/>
-        <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
+        <span className={this.props.creator}>{this.props.username}</span>
+        <span className={this.props.creator}>{this.props.content}</span>
         <br/>
       </div>
     );
