@@ -6,7 +6,7 @@ class Message extends Component {
     return(
       <div className="chatMessage">
         <span className="chatLeftUsername">User Name:</span>
-        <span>Hello there!</span>
+        <span>{this.props.content}</span>
         <br/>
         <span className="chatLeftUsername">User Name:</span>
         <span>Hello there!</span>
