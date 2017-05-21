@@ -4,7 +4,7 @@ class Message extends Component {
 
   render() {
     return(
-      <div>
+      <div className="chatMessage">
         <span className="chatLeftUsername">User Name:</span>
         <span>Hello there!</span>
         <br/>

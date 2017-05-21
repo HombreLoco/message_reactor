@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-// import ChatBar from './ChatBar.jsx';
+import ChatBar from './ChatBar.jsx';
 import MessageList from './MessageList.jsx';
 
 class App extends Component {
@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="chatContainer">
         <MessageList/>
+        <ChatBar/>
       </div>
     );
   }

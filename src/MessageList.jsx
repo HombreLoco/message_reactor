@@ -6,7 +6,6 @@ class MessageList extends Component {
   render() {
     return (
       <div className="chatWindow">
-        <div className="chatWindowFadeTop"></div>
         <Message/>
       </div>
     );
