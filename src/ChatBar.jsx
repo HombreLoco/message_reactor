@@ -3,10 +3,17 @@ import FaMailForward from 'react-icons/lib/fa/mail-forward';
 
 class ChatBar extends Component {
 
+  constructor(props) {
+    super(props)
+    // this.sendNewMessage = this.sendNewMessage.bind(this);
+  }
+
   sendNewMessage = () => {
     if (this.textInput.value != "") {
       let newMessage = {};
       newMessage.content = this.textInput.value;
+      newMessage.friendId = this.props.conversation.friendId;
+      newMessage.friendname = this.props.conversation.friendname;
       this.textInput.value = "";
       this.props.addNewMessage(newMessage);
     }

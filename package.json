@@ -39,6 +39,7 @@
     "eslint-plugin-react": "5.2.2",
     "faker": "^4.1.0",
     "node-sass": "3.8.0",
+    "prompt": "^1.0.0",
     "sass-loader": "4.0.0",
     "sockjs-client": "^1.1.1",
     "style-loader": "0.13.1",
@@ -49,6 +50,7 @@
     "react": "15.2.1",
     "react-dom": "15.2.1",
     "react-fontawesome": "^1.6.1",
-    "react-icons": "^2.2.5"
+    "react-icons": "^2.2.5",
+    "react-router-dom": "^4.1.1"
   }
 }
