@@ -11,8 +11,10 @@ p {
 }
 
 .chatContainer {
+  margin-top: 20px;
   position: relative;
   background-color: #009688;
+  border: 1px solid black;
   width: 30%;
   min-width: 300px;
   min-height: 300px;

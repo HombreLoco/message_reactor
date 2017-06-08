@@ -56,7 +56,7 @@ wss.on('connection', function connection(ws) {
           console.log("1");
           callback(message);
         });
-        
+
       }
       function sendMessage(message) {
         console.log("2");
@@ -65,7 +65,7 @@ wss.on('connection', function connection(ws) {
         broadcastSelf(message);
       }
       getPrompt(message, sendMessage);
-      
+
     } else {
         const message = JSON.parse(rawMessage);
         message.id = uuidV4();

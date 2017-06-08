@@ -25,14 +25,14 @@ class App extends Component {
                         id: 1,
                         userId: 4,
                         friendId: 1,
-                        content: "Hello",
+                        content: "Hi",
                         date: 1
                       },
                       {
                         id: 2,
                         userId: 1,
                         friendId: 4,
-                        content: "Bye",
+                        content: "Hi",
                         date: 2
                       }
                     ]
@@ -45,14 +45,14 @@ class App extends Component {
                         id: 3,
                         userId: 2,
                         friendId: 4,
-                        content: "Yay!",
+                        content: "Hi!",
                         date: 3
                       },
                       {
                         id: 4,
                         userId: 4,
                         friendId: 2,
-                        content: "Awww!",
+                        content: "Hi!",
                         date: 4
                       }
                     ]
@@ -65,14 +65,14 @@ class App extends Component {
                         id: 5,
                         userId: 4,
                         friendId: 3,
-                        content: "Yes!",
+                        content: "Hi!",
                         date: 10
                       },
                       {
                         id: 6,
                         userId: 3,
                         friendId: 4,
-                        content: "Always!",
+                        content: "Hi!",
                         date: 11
                       }
                     ]
@@ -85,14 +85,14 @@ class App extends Component {
                         id: 7,
                         userId: 4,
                         friendId: 3,
-                        content: "Yo!",
+                        content: "Hi!",
                         date: 10
                       },
                       {
                         id: 8,
                         userId: 3,
                         friendId: 4,
-                        content: "Dawg!",
+                        content: "Hi!",
                         date: 11
                       }
                     ]

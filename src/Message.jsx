@@ -4,6 +4,7 @@ class Message extends Component {
 
   render() {
     console.log("creator", this.props.creator);
+    console.log("this props", this.props);
     return(
       <div className="chatMessage">
         <span className={this.props.creator}>{this.props.userId}</span>
